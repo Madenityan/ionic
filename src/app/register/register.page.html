@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Register</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content padding>
+  <ion-list>
+    <ion-item>
+      <ion-input type="text" placeholder="Name" [(ngModel)]="username"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-input type="phone" placeholder="Phone" [(ngModel)]="phone"></ion-input>
+    </ion-item>
+    <ion-item>
+    <ion-input type="password" placeholder="Password" [(ngModel)]="password"></ion-input>
+  </ion-item>
+  </ion-list>
+  <ion-button expand="block" color="success" (click)="registerNow()"><a routerLink routerDirection="back">Create account now</a></ion-button>
+</ion-content>

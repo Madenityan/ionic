@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Log in
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding сenter text-center>
+  <ion-list>
+    <ion-item>
+      <ion-input placeholder="UserName" [(ngModel)]="username"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-input type="password" placeholder="Password" [(ngModel)]="password"></ion-input>
+    </ion-item>
+  </ion-list>
+  <ion-button expand="full" (click)="Submit()">Log in</ion-button>
+  <ion-button expand="full" (click)="goRegister()" color="light"><a routerLink routerDirection="back">Register</a></ion-button>
+</ion-content>
