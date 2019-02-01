@@ -7,9 +7,49 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ContactPage implements OnInit {
 
-  constructor() { }
+  items;
 
-  ngOnInit() {
+  constructor() {
+    this.items = [
+      {
+        'title': 'Lorem ipsum',
+        'description': 'Lorem ipsum Lorem ipsum Lorem ipsum'
+      },
+      {
+        'title': 'Lorem ipsum',
+        'description': 'Lorem ipsum Lorem ipsum Lorem ipsum'
+      },
+      {
+        'title': 'Lorem ipsum',
+        'description': 'Lorem ipsum Lorem ipsum Lorem ipsum'
+      },
+      {
+        'title': 'Lorem ipsum',
+        'description': 'Lorem ipsum Lorem ipsum Lorem ipsum'
+      },
+      {
+        'title': 'Lorem ipsum',
+        'description': 'Lorem ipsum Lorem ipsum Lorem ipsum'
+      },
+      {
+        'title': 'Lorem ipsum',
+        'description': 'Lorem ipsum Lorem ipsum Lorem ipsum'
+      },
+      {
+        'title': 'Lorem ipsum',
+        'description': 'Lorem ipsum Lorem ipsum Lorem ipsum'
+      },
+      {
+        'title': 'Lorem ipsum',
+        'description': 'Lorem ipsum Lorem ipsum Lorem ipsum'
+      }
+    ];
+  }
+
+  ngOnInit() {}
+
+  filteredItems() {
+
   }
 
 }

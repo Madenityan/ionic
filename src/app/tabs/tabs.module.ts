@@ -5,7 +5,7 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { IonicModule } from '@ionic/angular';
 
-import { TabsPage } from './tabs.page';
+import {TabsPage} from './tabs.page';
 import {AboutPageModule} from './about/about.module';
 import {HomePageModule} from './home/home.module';
 import {ContactPageModule} from './contact/contact.module';
