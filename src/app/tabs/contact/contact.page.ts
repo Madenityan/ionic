@@ -8,11 +8,12 @@ import { Component, OnInit } from '@angular/core';
 export class ContactPage implements OnInit {
 
   items;
+  filterItems: any = {title: '' };
 
   constructor() {
     this.items = [
       {
-        'title': 'Lorem ipsum',
+        'title': 'Lorem ipsum 11',
         'description': 'Lorem ipsum Lorem ipsum Lorem ipsum'
       },
       {
@@ -20,11 +21,11 @@ export class ContactPage implements OnInit {
         'description': 'Lorem ipsum Lorem ipsum Lorem ipsum'
       },
       {
-        'title': 'Lorem ipsum',
+        'title': 'Lorem',
         'description': 'Lorem ipsum Lorem ipsum Lorem ipsum'
       },
       {
-        'title': 'Lorem ipsum',
+        'title': 'Lorem 555',
         'description': 'Lorem ipsum Lorem ipsum Lorem ipsum'
       },
       {
@@ -47,9 +48,5 @@ export class ContactPage implements OnInit {
   }
 
   ngOnInit() {}
-
-  filteredItems() {
-
-  }
 
 }
